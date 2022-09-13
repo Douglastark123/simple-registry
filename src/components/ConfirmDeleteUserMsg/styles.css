@@ -1,0 +1,27 @@
+#confirm-delete-user-msg {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px;
+    max-width: 380px;
+    background-color: #0d1117;
+    color: #c9d1d9;
+}
+
+#confirm-delete-user-msg .btn {
+    background-color: #21262D;
+    color: #F85149;
+    opacity: 1;
+    border-radius: 10px;
+    border: 1px solid rgb(51, 50, 50);
+}
+
+#confirm-delete-user-msg .btn:hover {
+    background-color: #F85149;
+    color: #c9d1d9;
+    border: 1px solid #ff6c64;
+}
