@@ -1,12 +1,13 @@
 # Simple Registry
 A simple CRUD made in react and typescript.
 
+![registry display](./readme-media//registry-display.png)
 
-<video style="width: 100%;" loop autoplay="autoplay">
-  <source src="./simple-registry.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+![registry add user](./readme-media//registry-addUser.png)
 
+![registry edit user](./readme-media//registry-editUser.png)
+
+![registry delete user](./readme-media//registry-deleteUser.png)
 
 ## How to run
 ```console
