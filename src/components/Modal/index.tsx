@@ -1,3 +1,5 @@
+import "./styles.css";
+
 type ModalProps = {
     children?: React.ReactNode;
     outterStyle?: React.CSSProperties;

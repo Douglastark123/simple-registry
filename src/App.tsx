@@ -1,4 +1,5 @@
 import Display from "./components/Display";
+import './App.css';
 
 const App = () => {
 
