@@ -1,0 +1,58 @@
+/* Form */
+form#form>fieldset {
+    border: none;
+}
+
+.form-head-wrapper {
+    border-bottom: 1px solid #000;
+
+    display: flex;
+}
+
+form#form>fieldset legend {
+    width: 100%;
+    padding: 10px 15px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fieldset-inner-wrapper {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.input {
+    background-color: transparent;
+    border: 1px solid #ccc;
+    padding: 5px 15px;
+    outline: none;
+    width: 500px;
+}
+
+.input:focus {
+    border: 1px solid #000;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.btn-inverse:hover {
+    background-color: #000;
+    color: var(--main-white);
+}
+
+.btn-active {
+    background-color: #000;
+    color: var(--main-white);
+}

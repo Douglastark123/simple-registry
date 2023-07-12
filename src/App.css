@@ -1,0 +1,29 @@
+#app {
+    --main-white: rgb(255, 244, 230);
+
+    background-color: #fff4e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Buttons */
+.btn {
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 20px;
+
+    opacity: 0.5;
+}
+
+.btn:hover {
+    cursor: pointer;
+    opacity: 1;
+}

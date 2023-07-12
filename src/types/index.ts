@@ -1,0 +1,1 @@
+export type date = `${number}-${number}-${number}`;
